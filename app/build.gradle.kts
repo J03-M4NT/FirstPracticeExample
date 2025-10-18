@@ -56,4 +56,12 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // Dependences for the App
+
+    // Navigation Compose
+    implementation("androidx.navigation:navigation-compose:2.9.4")
+    // Coil Compose      -       Show images in the app
+    implementation("io.coil-kt:coil-compose:2.7.0")
+
 }
